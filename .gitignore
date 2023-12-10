@@ -40,4 +40,5 @@ application-mysql.yml
 application-security.yml
 application-cloud.yml
 application-redis.yml
+application-kurento.yml
 firebase/

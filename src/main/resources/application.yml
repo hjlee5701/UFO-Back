@@ -1,5 +1,5 @@
 server:
-  port: 1998
+  port: 7777
 spring:
   profiles:
     include:
@@ -7,6 +7,7 @@ spring:
       - security
       - redis
       - cloud
+      - kurento
   jpa:
     generate-ddl: true
     hibernate:

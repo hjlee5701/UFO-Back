@@ -53,6 +53,10 @@ dependencies {
 
 	implementation 'org.springframework.cloud:spring-cloud-starter-aws:2.2.6.RELEASE'
 
+	implementation group: 'org.kurento', name: 'kurento-client', version: '7.0.0'
+	implementation group: 'org.kurento', name: 'kurento-utils-js', version: '6.18.0'
+
+
 }
 
 tasks.named('bootBuildImage') {
